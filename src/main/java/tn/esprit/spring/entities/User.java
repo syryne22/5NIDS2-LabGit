@@ -44,7 +44,7 @@ public class User implements Serializable {
 		this.dateNaissance = dateNaissance;
 		this.role = role;
 	}
-
+//ajout commentaire
 
 	public User(Long id, String firstName, String lastName, Date dateNaissance, Role role) {
 		super();
@@ -58,7 +58,7 @@ public class User implements Serializable {
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", dateNaissance="
+		return "User [id=" + id + ", First Name=" + firstName + ", Last name=" + lastName + ", dateNaissance="
 				+ dateNaissance + ", role=" + role + "]";
 	}
 
